@@ -1,0 +1,44 @@
+* {
+  color: white;
+  background-color: black;
+  font-family: "Noto Sans Mono";
+}
+
+main,
+nav,
+aside,
+article,
+header {
+  margin: 1rem;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 20% auto;
+}
+
+h1 {
+  color: mediumorchid;
+}
+
+h2 {
+  color: plum;
+}
+
+h3 {
+  color: lavender;
+}
+
+header {
+  border: solid 2px;
+  text-align: center;
+}
+.disclaimer > p {
+  color: gray;
+  font: 10px;
+}
+
+.note {
+  color: mediumorchid;
+  text-decoration: underline;
+}
