@@ -33,7 +33,15 @@ header {
   border: solid 2px;
   text-align: center;
 }
-.disclaimer > p {
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  padding-right: 6rem;
+}
+
+.disclaimer>p {
   color: gray;
   font: 10px;
 }
