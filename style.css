@@ -41,12 +41,32 @@ nav {
   padding-right: 6rem;
 }
 
+blockquote {
+  align-content: start;
+}
+
 .disclaimer>p {
+  border-left: solid 2px mediumorchid;
+  padding: 0.8rem;
   color: gray;
   font: 10px;
 }
 
+/*
+.disclaimer>a:link {
+  color: gray;
+}
+*/
+
 .note {
   color: mediumorchid;
   text-decoration: underline;
+}
+
+.ivy {
+  color: violet;
+}
+
+.date {
+  text-align: right;
 }
