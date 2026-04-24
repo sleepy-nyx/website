@@ -1,7 +1,7 @@
 * {
   color: white;
   background-color: black;
-  font-family: "Noto Sans Mono";
+  font-family: "Noto Sans Mono", monospace;
 }
 
 main,
@@ -64,7 +64,7 @@ blockquote {
 }
 
 .ivy {
-  color: violet;
+  font-family: serif;
 }
 
 .date {
